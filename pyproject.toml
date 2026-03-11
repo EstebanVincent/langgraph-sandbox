@@ -4,7 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain>=1.2.11",
+    "langchain-openai>=1.1.11",
+    "langgraph>=1.1.0",
+    "langgraph-checkpoint-postgres>=3.0.4",
+    "psycopg[binary]>=3.3.3",
+]
 
 [project.optional-dependencies]
 dev = [
